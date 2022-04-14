@@ -9,3 +9,9 @@
 - [] Continue to explore possibile chess engines that would allow for a better difficulty adjustment.
 - [] Create an option for someone to select 3 different difficulties
 - [] Have at least one difficulty be functional by this point.
+### Sprint 3
+- [] Complete 1 slide PPT
+- [] Finish the last two difficulties choices for engine
+### Final Sprint/Presentation
+- [] Create PPT
+- [] Prepare to go over code and explain its purpose
