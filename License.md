@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 20222 Logan Gunnin
+Copyright (c) 20222 IS coding @ KSU
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
