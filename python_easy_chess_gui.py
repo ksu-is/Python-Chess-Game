@@ -86,7 +86,7 @@ GUI_THEME = ['Green', 'GreenTan', 'LightGreen', 'BluePurple', 'Purple',
              'BlueMono', 'GreenMono', 'BrownBlue', 'BrightColors',
              'NeutralBlue', 'Kayak', 'SandyBeach', 'TealMono', 'Topanga',
              'Dark', 'Black', 'DarkAmber']
-IMAGE_PATH = 'Images/60'  # path to the chess pieces
+IMAGE_PATH = 'C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Python-Chess-Game\\Images\\60'  # path to the chess pieces
 
 
 BLANK = 0  # piece names
@@ -2408,7 +2408,7 @@ class EasyChessGui:
         :return: list of engine filenames
         """
         engine_list = []
-        engine_path = Path('Engines')
+        engine_path = Path('C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Python-Chess-Game\\Engines')
         files = os.listdir(engine_path)
         for file in files:
             if not file.endswith('.gz') and not file.endswith('.dll') \
