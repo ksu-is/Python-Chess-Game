@@ -6,9 +6,9 @@
 - [x] Edited and commited changes in a readme.md file in repository commits should show in Github
 - [x] Explored at least one existing Python code base related to project and evaluated it
 ### Sprint 2
-- [] Continue to explore possibile chess engines that would allow for a better difficulty adjustment.
-- [] Create an option for someone to select 3 different difficulties
-- [] Have at least one difficulty be functional by this point.
+- [x] Continue to explore possibile chess engines that would allow for a better difficulty adjustment.
+- [x] Have an option for someone to select 3 different difficulties
+- [] Work on making sure that the file can be run through python source code
 ### Sprint 3
 - [] Complete 1 slide PPT
 - [] Finish the last two difficulties choices for engine
