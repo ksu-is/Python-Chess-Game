@@ -8,10 +8,10 @@
 ### Sprint 2
 - [x] Continue to explore possibile chess engines that would allow for a better difficulty adjustment.
 - [x] Have an option for someone to select 3 different difficulties
-- [] Work on making sure that the file can be run through python source code
+- [x] Work on making sure that the file can be run through python source code
 ### Sprint 3
 - [] Complete 1 slide PPT
-- [] Finish the last two difficulties choices for engine
+- [] Work on improving the path options for code to make it easier for others to use
 ### Final Sprint/Presentation
 - [] Create PPT
 - [] Prepare to go over code and explain its purpose
