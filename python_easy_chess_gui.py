@@ -160,6 +160,11 @@ You should be in Play mode
 1. Right-click on Book 1 or 2 press Show
 """
 
+OPENINGS_TIPS = """If you want to improve your game
+You should try to look at a few openings that will help your early game
+This will set you up to be able to improve your mid to late game in chess
+ways to improve your openings can be found on https://www.thechesswebsite.com/chess-openings/
+"""
 
 # Images/60
 blank = os.path.join(IMAGE_PATH, 'blank.png')
@@ -215,6 +220,7 @@ menu_def_neutral = [
         ['Tools', ['PGN', ['Delete Player::delete_player_k']]],
         ['&Settings', ['Game::settings_game_k']],
         ['&Help', ['About']],
+        ['&Tips', ['Openings']]
 ]
 
 # (2) Mode: Play, info: hide
@@ -230,6 +236,7 @@ menu_def_play = [
         ['FEN', ['Paste']],
         ['&Engine', ['Go', 'Move Now']],
         ['&Help', ['About']],
+        ['&Tips', ['Openings']]
 ]
 
 
@@ -1731,7 +1738,9 @@ class EasyChessGui:
                     if button == 'About':
                         sg.PopupScrolled(HELP_MSG, title=BOX_TITLE)
                         continue
-
+                    if button == 'Openings':
+                        sg.popupscrolled(OPENINGS_TIPS, title = BOX_TITLE)
+                        continue
                     if button == 'Paste':
                         try:
                             self.get_fen()
@@ -1958,7 +1967,9 @@ class EasyChessGui:
                     if button == 'About':
                         sg.PopupScrolled(HELP_MSG, title=BOX_TITLE,)
                         break
-
+                    if button == 'Openings':
+                        sg.popupscrolled(OPENINGS_TIPS, title=BOX_TITLE)
+                        break
                     # Mode: Play, stm: User
                     if button == 'Go':
                         if is_human_stm:
@@ -3511,7 +3522,9 @@ class EasyChessGui:
             if button == 'About':
                 sg.PopupScrolled(HELP_MSG, title='Help/About')
                 continue
-
+            if button == 'Openings':
+                sg.PopupScrolled(OPENINGS_TIPS, title='Tips/Openings')
+                continue
             # Mode: Neutral
             if button == 'Play':
                 if engine_id_name is None:
