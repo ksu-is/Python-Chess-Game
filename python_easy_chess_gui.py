@@ -1609,7 +1609,7 @@ class EasyChessGui:
     def set_depth_limit(self):
         """ Returns max depth based from user setting """
         user_depth = sg.PopupGetText(
-                    'Current depth is {}\n\nInput depth [{} to {}]'.format(
+                    'Depth is how many moves the engine will look ahead when attempting to make a move. higher depth = longer times but better moves\nCurrent depth is {}\n\nInput depth [{} to {}]'.format(
                     self.max_depth, MIN_DEPTH, MAX_DEPTH), title=BOX_TITLE,
                             icon=ico_path[platform]['pecg'])
 
