@@ -2469,12 +2469,12 @@ class EasyChessGui:
         board_layout = self.create_board(is_user_white)
 
         board_controls = [
-            [sg.Text('Mode     Neutral', size=(36, 1), font=('Consolas', 10), key='_gamestatus_')],
+            [sg.Text('Mode     Neutral', size=(24, 1), font=('Consolas', 10), key='_gamestatus_')],
             [sg.Text('White', size=(7, 1), font=('Consolas', 10)),
              sg.Text('Human', font=('Consolas', 10), key='_White_',
-                     size=(24, 1), relief='sunken'),
+                     size=(12, 1), relief='sunken'),
              sg.Text('', font=('Consolas', 10), key='w_base_time_k',
-                     size=(11, 1), relief='sunken'),
+                     size=(10, 1), relief='sunken'),
              sg.Text('', font=('Consolas', 10), key='w_elapse_k', size=(7, 1),
                      relief='sunken')
              ],
@@ -2490,7 +2490,7 @@ class EasyChessGui:
                      right_click_menu=['Right',
                          ['Start::right_adviser_k', 'Stop::right_adviser_k']]),
              sg.Text('', font=('Consolas', 10), key='advise_info_k', relief='sunken',
-                     size=(46,1))],
+                     size=(24,1))],
 
             [sg.Text('Move list', size=(16, 1), font=('Consolas', 10))],
             [sg.Multiline('', do_not_clear=True, autoscroll=True, size=(52, 8),
