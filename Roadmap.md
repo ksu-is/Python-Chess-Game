@@ -1,6 +1,6 @@
 ### Python Chess Game Roadmap
 ### Python Chess Sprint 1
-- [] Approved topic for project
+- [x] Approved topic for project
 - [x] Have a Github account and join KSU-IS organization
 - [x] Be associated with ownership of a code repository in KSU-IS organization
 - [x] Edited and commited changes in a readme.md file in repository commits should show in Github
@@ -12,6 +12,8 @@
 ### Sprint 3
 - [] Complete 1 slide PPT
 - [] Work on improving the path options for code to make it easier for others to use
+- [] Add button for resignation instead of being under a tab
+- [] Make the process of getting into a game smoother and easier.
 ### Final Sprint/Presentation
 - [] Create PPT
 - [] Prepare to go over code and explain its purpose
